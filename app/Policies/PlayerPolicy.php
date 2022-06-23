@@ -18,7 +18,7 @@ class PlayerPolicy
      */
     public function viewAny(User $user)
     {
-        //
+        return true;
     }
 
     /**
@@ -30,7 +30,7 @@ class PlayerPolicy
      */
     public function view(User $user, Player $player)
     {
-        //
+        return true;
     }
 
     /**
@@ -41,7 +41,7 @@ class PlayerPolicy
      */
     public function create(User $user)
     {
-        //
+        return true;
     }
 
     /**
@@ -53,7 +53,7 @@ class PlayerPolicy
      */
     public function update(User $user, Player $player)
     {
-        //
+        return true;
     }
 
     /**
@@ -65,7 +65,7 @@ class PlayerPolicy
      */
     public function delete(User $user, Player $player)
     {
-        //
+        return true;
     }
 
     /**
@@ -77,7 +77,7 @@ class PlayerPolicy
      */
     public function restore(User $user, Player $player)
     {
-        //
+        return true;
     }
 
     /**
@@ -89,6 +89,6 @@ class PlayerPolicy
      */
     public function forceDelete(User $user, Player $player)
     {
-        //
+        return true;
     }
 }
